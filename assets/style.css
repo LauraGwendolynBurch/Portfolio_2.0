@@ -27,6 +27,7 @@ nav {
     height: 60px;
     background-color: rgb(245, 217, 205);
     border-top: 2em solid rgb(4, 61, 65);
+    padding-top: 2em;
 }
 
 .header{
@@ -41,4 +42,17 @@ nav {
 .btn{
     background-color: rgb(245, 217, 205);
     
+}
+
+.modalContact {
+    background-image: url("../images/chicken2.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 85%;
+    height: 650px;
+}
+
+.insideModal{
+    background-color: rgb(245, 217, 205);
 }
