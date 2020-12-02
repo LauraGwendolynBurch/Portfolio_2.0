@@ -21,6 +21,10 @@ nav {
    border-top: .75em solid rgb(4, 61, 65);
 }
 
+.textColor {
+    color: rgb(4, 61, 65);
+}
+
 .footer{
     height: 60px;
     background-color: rgb(245, 217, 205);
@@ -36,3 +40,6 @@ nav {
     width: 80%;
 }
  
+.btn{
+    background-color: rgb(245, 217, 205);
+}
