@@ -11,18 +11,16 @@ body {
     opacity: 85%;
     height: 650px;
     border-left: 3em solid rgb(4, 61, 65);
-
 }  
 
 nav {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
    position: fixed;
-   text-decoration-color:rgb(4, 61, 65) !important;
    border-top: .75em solid rgb(4, 61, 65);
 }
 
 .textColor {
     color: rgb(4, 61, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer{
@@ -32,7 +30,7 @@ nav {
 }
 
 .header{
-    background-color: rgb(245, 217, 205);
+    background-color: rgb(245, 217, 205) !important;
     height: 30px;
 }
 
@@ -42,4 +40,5 @@ nav {
  
 .btn{
     background-color: rgb(245, 217, 205);
+    
 }
