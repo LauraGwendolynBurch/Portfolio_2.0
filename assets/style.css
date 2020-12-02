@@ -1,5 +1,6 @@
 body {
     background-color: rgb(245, 217, 205);
+    opacity: 100%;
 }
 
 .imageOne {
@@ -8,6 +9,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 85%;
     height: 2000px;
     border-left: 5em solid rgb(4, 61, 65);
 
@@ -16,7 +18,7 @@ body {
 nav {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    position: fixed;
- 
+   text-decoration-color:rgb(4, 61, 65) !important;
 }
 
  
