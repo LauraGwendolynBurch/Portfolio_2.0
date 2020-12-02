@@ -2,14 +2,21 @@ body {
     background-color: rgb(245, 217, 205);
 }
 
-/* .imageOne {
-    background-image: url("images/hero.jpg");
+.imageOne {
+    background-image: url("../images/hero.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}  */
+    height: 2000px;
+    border-left: 5em solid rgb(4, 61, 65);
 
+}  
 
+nav {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   position: fixed;
+ 
+}
 
  
