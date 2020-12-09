@@ -19,13 +19,27 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link textColor" href="#">Home </a>
+        <!-- Button trigger modal -->
+        <a type="button" class="nav-link textColor" data-toggle="modal" data-target="#exampleModal">About Me</a>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">About Me</h5>
+        
+            </div>
+            <div class="modal-body insideModal">So much of my career has been built around people and building connections.  This skill should not be undervalued.  With yoga I am not just teaching movement.  I am helping to grow the relationships people have with themselves and with their community.   When I am performing I use movement to create emotion, and without words we share a something together.  Building, creating, and participating in the stories of our communities has proven to be more important than ever.  Whatever field I am navigating I continue to see the importance of connection, and I will continue to share it.</div>
+        <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
         </li>
         <li class="nav-item">
-          <a class="nav-link textColor" href="#">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link textColor" href="#">Resume</a>
+        <a class="nav-link textColor" href="./resume.html">Resume</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle textColor" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,19 +65,22 @@
         <button type="button" class="btn textColor" data-toggle="modal" data-target="#staticBackdrop">Contact</button>
 
 <!-- Modal -->
-    <div class="modal fade modalContact" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="new modal fade modalContact" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
       <div class="modal-content insideModal">
       <div class="modal-body">
         <h5 class="modal-title textColor" id="staticBackdropLabel">Choose your own adventure</h5>
-        <class class="modal-body textColor"><strong>682-365-9727</strong>
-          <br>
-          <a href="mailto:lauraburch.lb@gmail.com" class="textColor"><strong>Email</strong></a>
-          <br>
-          <a href="https://github.com/LauraGwendolynBurch/"class="textColor" target="_blank"><strong>Github</strong></a>
-          <br>
-          <a href="https://www.linkedin.com/in/laura-gwendolyn-burch-7b1663b1/" class="textColor" target="_blank"><strong>Linkedin</strong></a>
-      </div>
+        <br>
+        <class class="modal-body2 textColor"><strong>682-365-9727</strong>
+        <ul>
+         <li><a href="mailto:lauraburch.lb@gmail.com" class="textColor"><strong>Email</strong></a></li>
+          
+          <li><a href="https://github.com/LauraGwendolynBurch/"class="textColor" target="_blank"><strong>Github</strong></a></li>
+          
+          <li><a href="https://www.linkedin.com/in/laura-gwendolyn-burch-7b1663b1/" class="textColor" target="_blank"><strong>Linkedin</strong></a></li>
+        </ul>
+        </div>
+
       <div class="modal-footer footer">
         <p type="button" class="textColor" data-dismiss="modal">Close</p>
       </div>

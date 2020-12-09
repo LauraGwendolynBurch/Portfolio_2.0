@@ -55,3 +55,11 @@ nav {
 .insideModal{
     background-color: rgb(245, 217, 205);
 }
+
+a:hover{
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
