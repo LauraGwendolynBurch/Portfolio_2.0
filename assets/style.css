@@ -68,3 +68,7 @@ ul {
    margin-top: 5em;
    border: 3px solid; 
  } 
+ 
+.card{
+    border-left: 2em solid rgb(4, 61, 65);
+}
