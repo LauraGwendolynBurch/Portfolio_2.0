@@ -28,7 +28,7 @@ The design mock-up will be used to showcase current and future skills as a devel
 [Github Repo Portfolio_2.0](https://lauragwendolynburch.github.io/Portfolio_2.0/)
 
 ## User-Story
-This is one of a few styles of portfolios I am working on while I learn new skills.
+This is one of a few portfolios I am working with as I learn new skills.
 
 ## License
 [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0)
